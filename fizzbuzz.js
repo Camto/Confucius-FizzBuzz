@@ -1,23 +1,20 @@
-function divischeck(x, y) {
-  return Number.isInteger(x / y)
-}
-function fizzbuzz(x) {
-  if (divischeck(x, 3) == true && divischeck(x, 5) == true) {
+function checkit(x, y) {
+  return x % y;
+};
+
+function numtest(x, y, z) {
+  if (checkit(x, (y*z)) === 0) {
     return 'FizzBuzz';
+  } else if (checkit(x, y) === 0) {
+    return 'Fizz';
+  } else if (checkit(x, z) === 0) {
+    return 'Buzz';
   } else {
-    if (divischeck(x, 3) == true || divischeck(x, 5) == true) {
-      if (divischeck(x, 3) == true) {
-        return 'Fizz';
-      } else {
-        return 'Buzz';
-      }
-    } else {
-      return x;
-    }
+    return x;
   }
-}
+};
 
 for (i = 1; i < 101; i++) {
-  let printit = fizzbuzz([i]);
+  let printit = numtest([i], 3, 5);
   console.log(printit.toString())
 }
