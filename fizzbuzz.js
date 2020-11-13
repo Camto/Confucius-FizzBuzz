@@ -1,1 +1,1 @@
-l=x=>console.log(x);for(i = 1;i<=100;i++)i%15==0?l('FizzBuzz'):i%3==0?l('Fizz'):i%5==0?l('Buzz'):l(i);
+for(i = 1;i<=100;i++)console.log(i%15==0?'FizzBuzz':i%3==0?'Fizz':i%5==0?'Buzz':i);
