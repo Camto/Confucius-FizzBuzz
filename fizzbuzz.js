@@ -1,1 +1,1 @@
-a=b=[],(function(){d=++a%3,e=a%5,j=[122,122].map(String.fromCharCode),g=([66,117].map(String.fromCharCode)+j),i=([70,105].map(String.fromCharCode)+j),console.log((d+e==b?i+g:e==b?g:d!=b?b+a:i).replace(/(.)[^\w]*/mg,x=>x[0]))||a<1.0e2&&arguments.callee()})()
+і=𝐢=[],(function(){𝛊=String.fromCharCode,ɩ=++і%3,ι=і%5,ℹ=[122,122].map(𝛊),ⅰ=([66,117].map(𝛊)+ℹ),i=([70,105].map(𝛊)+ℹ),console.log((ɩ+ι==𝐢?i+ⅰ:ι==𝐢?ⅰ:ɩ!=𝐢?𝐢+і:i).replace(/(.)[^\w]*/mg,i=>i[0]))||і<1.0e2&&arguments.callee()})()
