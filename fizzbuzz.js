@@ -1,1 +1,1 @@
-a=b="";for(;a<1e2;){d=++a%3,e=a%5,f='zz',g='Bu'+z,console.log(d+e==b?'Fi'+f+g:e==b?g:d!=b?a:'Fi'+f)}
+a=b="";for(;a<1e2;){d=++a%3,e=a%5,f='z"'.slice(0,1),g='Bu'+f+f,console.log(d+e==b?'Fi'+f+f+g:e==b?g:d!=b?a:'Fi'+f+f)}
