@@ -1,2 +1,2 @@
 // "Wheresoever you go, go with all your heart."
-і=𝐢=[],(function(){𝛊=String.fromCharCode,ɩ=++і%3,ι=і%5,ℹ=[122,122].map(𝛊),ⅰ=([66,117].map(𝛊)+ℹ),i=([70,105].map(𝛊)+ℹ),console.log((ɩ+ι==𝐢?i+ⅰ:ι==𝐢?ⅰ:ɩ!=𝐢?𝐢+і:i).replace(/(.)[^\w]*/mg,i=>i[0]))||і<1.0e2&&arguments.callee()})()
+і=𝐢=[],(function(){𝛊=String.fromCharCode,ɩ=++і%3,ι=і%5,ℹ=[122,122].map(𝛊),ⅰ=([66,117].map(𝛊)+ℹ),i=([70,105].map(𝛊)+ℹ),console.log((ɩ+ι==𝐢?i+ⅰ:ι==𝐢?ⅰ:ɩ!=𝐢?𝐢+і:i).replace(/(.)[^\w]*/mg,i=>i[0]))||і<1.0e2&&arguments.callee()&&this()})()
