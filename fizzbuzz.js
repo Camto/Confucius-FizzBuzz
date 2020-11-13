@@ -1,1 +1,1 @@
-for(i = 1;i<=100;i++)console.log(i%15==0?'FizzBuzz':i%3==0?'Fizz':i%5==0?'Buzz':i);
+for(i=1;i<=100;i++){t=i%3;f=i%5;z='zz';b='Bu'+z;console.log(t==0?'Fi'+(f!==0?z:z+b):f==0?b:i);}
