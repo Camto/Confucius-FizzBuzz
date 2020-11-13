@@ -1,1 +1,1 @@
-for(i=1;i<=100;i++){t=i%3;f=i%5;z='zz';b='Bu'+z;console.log(t==0?'Fi'+(f!==0?z:z+b):f==0?b:i);}
+a=b="";for(;a<1e2;){d=++a%3,e=a%5,f='zz',g='Bu'+z,console.log(d+e==b?'Fi'+f+g:e==b?g:d!=b?a:'Fi'+f)}
